@@ -1,5 +1,11 @@
-import streamlit as st
-import pandas as pd
-import numpy as np
+mport streamlit as st
 
-st.title('Uber pickups in NYC')
+st.write("""
+# Sales model 
+""")
+st.write("""
+# Sales model  121212
+""")
+
+x = st.slider("Select a value")
+st.write(x, "squared is", x * x)
